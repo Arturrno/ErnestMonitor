@@ -1,6 +1,8 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import Button from "./button";
+import ReportThreatForm from "./report/ReportThreatForm";
+import ModeratorPanel from "./ModeratorPanel";
 
 export default function Home() {
   return (
@@ -22,7 +24,7 @@ export default function Home() {
         </ol>
 
         <div className={styles.ctas}>
-          <Button title="dupa" link="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app" />
+          <Button title="report" link="ModeratorPanel" />
           <Button title="Read our docs" link="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app" />
         </div>
       </main>
