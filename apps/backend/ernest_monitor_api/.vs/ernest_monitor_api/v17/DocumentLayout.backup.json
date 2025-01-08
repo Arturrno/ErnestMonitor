@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\KamilCeglarski\\source\\repos\\ErnestMonitor\\apps\\backend\\ernest_monitor_api\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{84869C40-D007-4F7B-94FE-FE998F8AB2F6}|ernest_monitor_api\\ernest_monitor_api.csproj|c:\\users\\kamilceglarski\\source\\repos\\ernestmonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{84869C40-D007-4F7B-94FE-FE998F8AB2F6}|ernest_monitor_api\\ernest_monitor_api.csproj|solutionrelative:ernest_monitor_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{84869C40-D007-4F7B-94FE-FE998F8AB2F6}|ernest_monitor_api\\ernest_monitor_api.csproj|c:\\users\\kamilceglarski\\source\\repos\\ernestmonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\controllers\\weatherforecast2controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84869C40-D007-4F7B-94FE-FE998F8AB2F6}|ernest_monitor_api\\ernest_monitor_api.csproj|solutionrelative:ernest_monitor_api\\controllers\\weatherforecast2controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,6 +35,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\KamilCeglarski\\source\\repos\\ErnestMonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\appsettings.json",
+              "RelativeDocumentMoniker": "ernest_monitor_api\\appsettings.json",
+              "ToolTip": "C:\\Users\\KamilCeglarski\\source\\repos\\ErnestMonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\appsettings.json",
+              "RelativeToolTip": "ernest_monitor_api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-08T11:12:31.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "WeatherForecast2Controller.cs",
               "DocumentMoniker": "C:\\Users\\KamilCeglarski\\source\\repos\\ErnestMonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\Controllers\\WeatherForecast2Controller.cs",
               "RelativeDocumentMoniker": "ernest_monitor_api\\Controllers\\WeatherForecast2Controller.cs",
@@ -43,7 +60,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "C:\\Users\\KamilCeglarski\\source\\repos\\ErnestMonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "ernest_monitor_api\\WeatherForecast.cs",
@@ -55,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\KamilCeglarski\\source\\repos\\ErnestMonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\Program.cs",
               "RelativeDocumentMoniker": "ernest_monitor_api\\Program.cs",

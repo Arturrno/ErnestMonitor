@@ -1,6 +1,6 @@
 // app/about/page.tsx
 
-import About from './About';
+import About from '../pages/About';
 import Navbar from '../components/Navbar';
 import './about.css';
 
