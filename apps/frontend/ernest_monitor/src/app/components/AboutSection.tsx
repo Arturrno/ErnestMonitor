@@ -4,7 +4,7 @@
 
 import React from 'react';
 
-const About = () => {
+const AboutSection = () => {
   return (
     <div style={styles.container}>
       <h1 style={styles.header}>O aplikacji</h1>
@@ -75,4 +75,4 @@ const styles: { [key: string]: React.CSSProperties } = {
   },
 };
 
-export default About;
+export default AboutSection;

@@ -1,16 +1,16 @@
 // app/about/page.tsx
 
-import About from './About';
+import AboutSection from '../components/AboutSection';
 import Navbar from '../components/Navbar';
-import './about.css';
 
-const AboutPage = () => {
+
+const About = () => {
   return (
     <div>
       <Navbar/>
-      <About />
+      <AboutSection />
     </div>
   );
 };
 
-export default AboutPage;
+export default About;
