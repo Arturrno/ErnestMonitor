@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\apps",
+    "\\apps\\backend",
+    "\\apps\\backend\\ernest_monitor_api",
+    "\\apps\\frontend",
+    "\\apps\\frontend\\ernest_monitor",
+    "\\apps\\frontend\\ernest_monitor\\src",
+    "\\apps\\frontend\\ernest_monitor\\src\\app",
+    "\\apps\\libs",
+    "\\apps\\Przetrwaj"
+  ],
+  "SelectedNode": "\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api.sln",
+  "PreviewInSolutionExplorer": false
+}
