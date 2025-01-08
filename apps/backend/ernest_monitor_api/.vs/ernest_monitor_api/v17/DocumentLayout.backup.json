@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\artur\\source\\repos\\ErnestMonitor\\apps\\backend\\ernest_monitor_api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{84869C40-D007-4F7B-94FE-FE998F8AB2F6}|ernest_monitor_api\\ernest_monitor_api.csproj|c:\\users\\artur\\source\\repos\\ernestmonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\controllers\\weatherforecast2controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84869C40-D007-4F7B-94FE-FE998F8AB2F6}|ernest_monitor_api\\ernest_monitor_api.csproj|solutionrelative:ernest_monitor_api\\controllers\\weatherforecast2controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WeatherForecast2Controller.cs",
+              "DocumentMoniker": "C:\\Users\\artur\\source\\repos\\ErnestMonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\Controllers\\WeatherForecast2Controller.cs",
+              "RelativeDocumentMoniker": "ernest_monitor_api\\Controllers\\WeatherForecast2Controller.cs",
+              "ToolTip": "C:\\Users\\artur\\source\\repos\\ErnestMonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\Controllers\\WeatherForecast2Controller.cs",
+              "RelativeToolTip": "ernest_monitor_api\\Controllers\\WeatherForecast2Controller.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T12:55:45.589Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
