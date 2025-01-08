@@ -13,7 +13,7 @@ const Navbar = () => {
 
   return (
     <nav style={styles.navbar}>
-      <Link href="/login" passHref> 
+      <Link href="/"> 
         <div style={styles.logo}>Survive</div>
       </Link>
       <div style={styles.hamburger} onClick={toggleMenu}>
@@ -27,7 +27,7 @@ const Navbar = () => {
         <li><a href="#projects" style={styles.link}>Projects</a></li>
          <li><Link href="/about" style={styles.link}>About</Link></li> {/* Updated Link component */}
       </ul>
-      <Link href="/login" passHref> 
+      <Link href="/login"> 
         <button style={styles.loginButton}>Log In</button>
       </Link>
       
