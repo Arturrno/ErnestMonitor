@@ -22,7 +22,7 @@ export default function Home() {
         </ol>
 
         <div className={styles.ctas}>
-          <Button title="dupa" link="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app" />
+          <Button title="Test" link="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app" />
           <Button title="Read our docs" link="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app" />
         </div>
       </main>
