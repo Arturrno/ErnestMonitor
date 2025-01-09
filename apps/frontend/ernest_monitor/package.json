@@ -9,8 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "bootstrap": "^5.3.3",
+    "mdb-react-ui-kit": "^9.0.0",
     "next": "^15.1.4",
     "react": "^19.0.0",
+    "react-bootstrap": "^2.10.7",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.1.1"
   },
