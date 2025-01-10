@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\artur\source\repos\ErnestMonitor\apps\backend\ernest_monitor_api\ernest_monitor_api\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\artur\source\repos\ErnestMonitor\apps\backend\ernest_monitor_api\ernest_monitor_api\bin\Debug\net8.0\appsettings.json
 C:\Users\artur\source\repos\ErnestMonitor\apps\backend\ernest_monitor_api\ernest_monitor_api\bin\Debug\net8.0\ernest_monitor_api.staticwebassets.endpoints.json
@@ -35,3 +36,42 @@ C:\Users\artur\source\repos\ErnestMonitor\apps\backend\ernest_monitor_api\ernest
 C:\Users\artur\source\repos\ErnestMonitor\apps\backend\ernest_monitor_api\ernest_monitor_api\obj\Debug\net8.0\ernest_monitor_api.pdb
 C:\Users\artur\source\repos\ErnestMonitor\apps\backend\ernest_monitor_api\ernest_monitor_api\obj\Debug\net8.0\ernest_monitor_api.genruntimeconfig.cache
 C:\Users\artur\source\repos\ErnestMonitor\apps\backend\ernest_monitor_api\ernest_monitor_api\obj\Debug\net8.0\ref\ernest_monitor_api.dll
+=======
+C:\Users\KamilCeglarski\source\repos\ErnestMonitor\apps\backend\ernest_monitor_api\ernest_monitor_api\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\KamilCeglarski\source\repos\ErnestMonitor\apps\backend\ernest_monitor_api\ernest_monitor_api\bin\Debug\net8.0\appsettings.json
+C:\Users\KamilCeglarski\source\repos\ErnestMonitor\apps\backend\ernest_monitor_api\ernest_monitor_api\bin\Debug\net8.0\ernest_monitor_api.staticwebassets.endpoints.json
+C:\Users\KamilCeglarski\source\repos\ErnestMonitor\apps\backend\ernest_monitor_api\ernest_monitor_api\bin\Debug\net8.0\ernest_monitor_api.exe
+C:\Users\KamilCeglarski\source\repos\ErnestMonitor\apps\backend\ernest_monitor_api\ernest_monitor_api\bin\Debug\net8.0\ernest_monitor_api.deps.json
+C:\Users\KamilCeglarski\source\repos\ErnestMonitor\apps\backend\ernest_monitor_api\ernest_monitor_api\bin\Debug\net8.0\ernest_monitor_api.runtimeconfig.json
+C:\Users\KamilCeglarski\source\repos\ErnestMonitor\apps\backend\ernest_monitor_api\ernest_monitor_api\bin\Debug\net8.0\ernest_monitor_api.dll
+C:\Users\KamilCeglarski\source\repos\ErnestMonitor\apps\backend\ernest_monitor_api\ernest_monitor_api\bin\Debug\net8.0\ernest_monitor_api.pdb
+C:\Users\KamilCeglarski\source\repos\ErnestMonitor\apps\backend\ernest_monitor_api\ernest_monitor_api\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\KamilCeglarski\source\repos\ErnestMonitor\apps\backend\ernest_monitor_api\ernest_monitor_api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\KamilCeglarski\source\repos\ErnestMonitor\apps\backend\ernest_monitor_api\ernest_monitor_api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\KamilCeglarski\source\repos\ErnestMonitor\apps\backend\ernest_monitor_api\ernest_monitor_api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\KamilCeglarski\source\repos\ErnestMonitor\apps\backend\ernest_monitor_api\ernest_monitor_api\obj\Debug\net8.0\ernest_monitor_api.csproj.AssemblyReference.cache
+C:\Users\KamilCeglarski\source\repos\ErnestMonitor\apps\backend\ernest_monitor_api\ernest_monitor_api\obj\Debug\net8.0\ernest_monitor_api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KamilCeglarski\source\repos\ErnestMonitor\apps\backend\ernest_monitor_api\ernest_monitor_api\obj\Debug\net8.0\ernest_monitor_api.AssemblyInfoInputs.cache
+C:\Users\KamilCeglarski\source\repos\ErnestMonitor\apps\backend\ernest_monitor_api\ernest_monitor_api\obj\Debug\net8.0\ernest_monitor_api.AssemblyInfo.cs
+C:\Users\KamilCeglarski\source\repos\ErnestMonitor\apps\backend\ernest_monitor_api\ernest_monitor_api\obj\Debug\net8.0\ernest_monitor_api.csproj.CoreCompileInputs.cache
+C:\Users\KamilCeglarski\source\repos\ErnestMonitor\apps\backend\ernest_monitor_api\ernest_monitor_api\obj\Debug\net8.0\ernest_monitor_api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\KamilCeglarski\source\repos\ErnestMonitor\apps\backend\ernest_monitor_api\ernest_monitor_api\obj\Debug\net8.0\ernest_monitor_api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\KamilCeglarski\source\repos\ErnestMonitor\apps\backend\ernest_monitor_api\ernest_monitor_api\obj\Debug\net8.0\ernest_monitor_api.sourcelink.json
+C:\Users\KamilCeglarski\source\repos\ErnestMonitor\apps\backend\ernest_monitor_api\ernest_monitor_api\obj\Debug\net8.0\scopedcss\bundle\ernest_monitor_api.styles.css
+C:\Users\KamilCeglarski\source\repos\ErnestMonitor\apps\backend\ernest_monitor_api\ernest_monitor_api\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\KamilCeglarski\source\repos\ErnestMonitor\apps\backend\ernest_monitor_api\ernest_monitor_api\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\KamilCeglarski\source\repos\ErnestMonitor\apps\backend\ernest_monitor_api\ernest_monitor_api\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\KamilCeglarski\source\repos\ErnestMonitor\apps\backend\ernest_monitor_api\ernest_monitor_api\obj\Debug\net8.0\staticwebassets\msbuild.ernest_monitor_api.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\KamilCeglarski\source\repos\ErnestMonitor\apps\backend\ernest_monitor_api\ernest_monitor_api\obj\Debug\net8.0\staticwebassets\msbuild.ernest_monitor_api.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\KamilCeglarski\source\repos\ErnestMonitor\apps\backend\ernest_monitor_api\ernest_monitor_api\obj\Debug\net8.0\staticwebassets\msbuild.build.ernest_monitor_api.props
+C:\Users\KamilCeglarski\source\repos\ErnestMonitor\apps\backend\ernest_monitor_api\ernest_monitor_api\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ernest_monitor_api.props
+C:\Users\KamilCeglarski\source\repos\ErnestMonitor\apps\backend\ernest_monitor_api\ernest_monitor_api\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ernest_monitor_api.props
+C:\Users\KamilCeglarski\source\repos\ErnestMonitor\apps\backend\ernest_monitor_api\ernest_monitor_api\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\KamilCeglarski\source\repos\ErnestMonitor\apps\backend\ernest_monitor_api\ernest_monitor_api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\KamilCeglarski\source\repos\ErnestMonitor\apps\backend\ernest_monitor_api\ernest_monitor_api\obj\Debug\net8.0\ernest_m.36CA3B0F.Up2Date
+C:\Users\KamilCeglarski\source\repos\ErnestMonitor\apps\backend\ernest_monitor_api\ernest_monitor_api\obj\Debug\net8.0\ernest_monitor_api.dll
+C:\Users\KamilCeglarski\source\repos\ErnestMonitor\apps\backend\ernest_monitor_api\ernest_monitor_api\obj\Debug\net8.0\refint\ernest_monitor_api.dll
+C:\Users\KamilCeglarski\source\repos\ErnestMonitor\apps\backend\ernest_monitor_api\ernest_monitor_api\obj\Debug\net8.0\ernest_monitor_api.pdb
+C:\Users\KamilCeglarski\source\repos\ErnestMonitor\apps\backend\ernest_monitor_api\ernest_monitor_api\obj\Debug\net8.0\ernest_monitor_api.genruntimeconfig.cache
+C:\Users\KamilCeglarski\source\repos\ErnestMonitor\apps\backend\ernest_monitor_api\ernest_monitor_api\obj\Debug\net8.0\ref\ernest_monitor_api.dll
+>>>>>>> artur_test
