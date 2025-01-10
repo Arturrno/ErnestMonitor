@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ernest_monitor_api.props" />
+</Project>
