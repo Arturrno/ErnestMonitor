@@ -9,8 +9,8 @@ import NavScroll from './components/NavScroll';
 export default function Home() {
   return (
     <div >
-      <NavScroll />
-
+      <NavScroll/>
+      
     </div>
   );
 }
