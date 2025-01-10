@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\KamilCeglarski\\source\\repos\\ErnestMonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\ernest_monitor_api.csproj": {}
   },
   "projects": {
@@ -12,12 +13,29 @@
         "projectPath": "C:\\Users\\KamilCeglarski\\source\\repos\\ErnestMonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\ernest_monitor_api.csproj",
         "packagesPath": "C:\\Users\\KamilCeglarski\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\KamilCeglarski\\source\\repos\\ErnestMonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\obj\\",
+=======
+    "C:\\Users\\artur\\source\\repos\\ErnestMonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\ernest_monitor_api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\artur\\source\\repos\\ErnestMonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\ernest_monitor_api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\artur\\source\\repos\\ErnestMonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\ernest_monitor_api.csproj",
+        "projectName": "ernest_monitor_api",
+        "projectPath": "C:\\Users\\artur\\source\\repos\\ErnestMonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\ernest_monitor_api.csproj",
+        "packagesPath": "C:\\Users\\artur\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\artur\\source\\repos\\ErnestMonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\obj\\",
+>>>>>>> develop
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\KamilCeglarski\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\artur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> develop
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +44,10 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+<<<<<<< HEAD
           "C:\\Program Files\\dotnet\\library-packs": {},
+=======
+>>>>>>> develop
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

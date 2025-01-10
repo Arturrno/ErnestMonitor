@@ -1,5 +1,6 @@
 {
   "ExpandedNodes": [
+<<<<<<< HEAD
     "",
     "\\apps",
     "\\apps\\backend",
@@ -12,5 +13,10 @@
     "\\apps\\Przetrwaj"
   ],
   "SelectedNode": "\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api.sln",
+=======
+    ""
+  ],
+  "SelectedNode": "\\ernest_monitor_api.sln",
+>>>>>>> develop
   "PreviewInSolutionExplorer": false
 }
