@@ -1,0 +1,5 @@
+# Ignore specific directories
+apps/Przetrwaj/
+apps/libs/
+.vs/
+apps/frontend/ernest_monitor/.vscode/

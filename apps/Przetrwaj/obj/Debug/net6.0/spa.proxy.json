@@ -1,8 +1,0 @@
-{
-"SpaProxyServer": {
-"ServerUrl": "https://localhost:44488",
-"LaunchCommand": "npm start",
-"WorkingDirectory": "C:\\Users\\KamilCeglarski\\source\\repos\\ErnestMonitor\\apps\\Przetrwaj\\ClientApp\\",
-"MaxTimeoutInSeconds": "120"
-}
-}
