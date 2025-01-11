@@ -2,7 +2,7 @@
 
 import AboutSection from './AboutSection';
 
-import NavScroll from '../shared_components/Navbar';
+import NavScroll from '../components/Navbar';
 
 
 const About = () => {

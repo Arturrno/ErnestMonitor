@@ -1,12 +1,8 @@
 
-// import ReportThreatForm from "./report/ReportThreatForm";
-// import ModeratorPanel from "./ModeratorPanel";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import NavScroll from './shared_components/Navbar';
-import Footer from './shared_components/Footer';
-import Map from './components/Map';
-import Table from './components/Table';
-import SurvivalNews from './components/SurvivalNews';
+import Map from './home/Map';
+import Table from './home/Table';
+import SurvivalNews from './home/SurvivalNews';
 
 
 
