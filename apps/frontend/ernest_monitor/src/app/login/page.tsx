@@ -1,18 +1,16 @@
-"use client"; 
+"use client";
 
 import React from 'react';
-import NavScroll from '../components/NavScroll';
-import LoginForm from '../components/LoginForm';
+import NavScroll from '../shared_components/Navbar';
+import LoginForm from './LoginForm';
 import 'bootstrap/dist/css/bootstrap.min.css';
 const LoginPage = () => {
-  
+
 
   return (
     <div >
-      <NavScroll />
       <LoginForm />
     </div>
-
   );
 };
 

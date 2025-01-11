@@ -1,15 +1,12 @@
 
-"use client"; 
+"use client";
 
 import React from 'react';
-import NavScroll from '../components/NavScroll';
-
-import RegisterForm from '../components/RegisterForm';
+import RegisterForm from './RegisterForm';
 
 const RegisterPage = () => {
   return (
     <div >
-      <NavScroll />
       <RegisterForm />
     </div>
   );
