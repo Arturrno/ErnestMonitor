@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\malin\\OneDrive\\Documents\\GitHub\\ErnestMonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\ernest_monitor_api.csproj": {}
+    "C:\\Users\\KamilCeglarski\\source\\repos\\ErnestMonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\ernest_monitor_api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\malin\\OneDrive\\Documents\\GitHub\\ErnestMonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\ernest_monitor_api.csproj": {
+    "C:\\Users\\KamilCeglarski\\source\\repos\\ErnestMonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\ernest_monitor_api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\malin\\OneDrive\\Documents\\GitHub\\ErnestMonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\ernest_monitor_api.csproj",
+        "projectUniqueName": "C:\\Users\\KamilCeglarski\\source\\repos\\ErnestMonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\ernest_monitor_api.csproj",
         "projectName": "ernest_monitor_api",
-        "projectPath": "C:\\Users\\malin\\OneDrive\\Documents\\GitHub\\ErnestMonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\ernest_monitor_api.csproj",
-        "packagesPath": "C:\\Users\\malin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\malin\\OneDrive\\Documents\\GitHub\\ErnestMonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\obj\\",
+        "projectPath": "C:\\Users\\KamilCeglarski\\source\\repos\\ErnestMonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\ernest_monitor_api.csproj",
+        "packagesPath": "C:\\Users\\KamilCeglarski\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\KamilCeglarski\\source\\repos\\ErnestMonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\malin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\KamilCeglarski\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -50,6 +51,16 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
@@ -66,24 +77,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.11, 8.0.11]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[8.0.11, 8.0.11]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.11, 8.0.11]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.11, 8.0.11]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
