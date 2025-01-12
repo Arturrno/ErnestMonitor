@@ -1,16 +1,15 @@
 // app/about/page.tsx
 
-import AboutSection from '../components/AboutSection';
+import AboutSection from './AboutSection';
 
-import NavScroll from '../components/NavScroll';
+import NavScroll from '../components/Navbar';
 
 
 const About = () => {
   return (
-    <div>
-      <NavScroll/>
+    <>
       <AboutSection />
-    </div>
+    </>
   );
 };
 
