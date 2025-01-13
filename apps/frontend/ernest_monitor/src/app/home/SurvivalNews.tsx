@@ -2,6 +2,8 @@
 "use client"; // Komponent klientowy
 'use'
 import React, { useState, useEffect } from 'react';
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 
 const SurvivalNews = () => {
   const [news, setNews] = useState([
@@ -49,84 +51,125 @@ const SurvivalNews = () => {
     },
   ]);
 
-  const [currentIndex, setCurrentIndex] = useState(0);
-
-  useEffect(() => {
-    const intervalId = setInterval(() => {
-      setCurrentIndex((currentIndex + 1) % news.length);
-    }, 5000);
-    return () => clearInterval(intervalId);
-  }, [currentIndex, news.length]);
+  const responsive = {
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 2,
+      slidesToSlide: 1,
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2,
+      slidesToSlide: 1,
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+      slidesToSlide: 1,
+    },
+  };
 
   return (
-    <div className="survival-news-container" style={{
-      width: '1090px',
-      margin: '20px auto',
-      padding: '20px',
-      border: '1px solid #ddd',
-      borderRadius: '10px',
-      boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
-    }}>
-      <h2 style={{
-        fontSize: '1.5rem',
-        color: '#333',
-        marginBottom: '15px',
-      }}>Survival News</h2>
-      <div className="news-slider" style={{
-        position: 'relative',
-        width: '100%',
-        height: '200px',
-        overflow: 'hidden',
-      }}>
-        <div style={{
-          position: 'absolute',
-          top: 0,
-          left: 0,
+    <div
+      className="survival-news-container"
+      style={{
+        width: '1090px',
+        margin: '20px auto',
+        padding: '20px',
+        border: '1px solid #ddd',
+        borderRadius: '10px',
+        boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
+      }}
+    >
+      <h2
+        style={{
+          fontSize: '1.5rem',
+          color: '#333',
+          marginBottom: '15px',
+        }}
+      >
+        Survival News
+      </h2>
+      <div
+        className="news-slider"
+        style={{
+          position: 'relative',
+          paddingBottom: '40px',
           width: '100%',
-          height: '100%',
-          display: 'flex',
-          flexWrap: 'nowrap',
-        }}>
-          {news.map((newsItem, index) => (
+          overflow: 'hidden',
+        }}
+      >
+        <Carousel
+          swipeable={true}
+          draggable={true}
+          showDots={true}
+          responsive={responsive}
+          ssr={true} // Server-side rendering
+          infinite={true}
+          autoPlay={true}
+          autoPlaySpeed={5000}
+          keyBoardControl={true}
+          customTransition="transform 0.8s ease-in-out"
+          transitionDuration={800}
+          centerMode={true}
+          containerClass="carousel-container"
+          removeArrowOnDeviceType={['tablet', 'mobile']}
+          dotListClass="custom-dot-list-style"
+          itemClass="carousel-item-padding-40-px"
+          renderDotsOutside={true}
+        >
+          {news.map((item, index) => (
             <div
               key={index}
               style={{
-                width: '100%',
-                height: '100%',
-                flex: '1',
-                transition: 'left 0.5s ease-in-out',
-                transform: `translateX(${(currentIndex + index) % news.length * 100}%)`,
+                padding: '15px',
+                marginLeft: '5px',
+                marginRight: '5px',
+                border: '1px solid #ddd',
+                borderRadius: '5px',
+                background: '#fff',
+                textAlign: 'left',
+                boxShadow: '0 2px 5px rgba(0, 0, 0, 0.1)',
               }}
             >
-              <div style={{
-                height: '100%',
-                display: 'flex',
-                flexDirection: 'column',
-                justifyContent: 'space-between',
-              }}>
-                <h3 style={{
-                  fontSize: '1.2rem',
-                  color: '#333',
-                  marginBottom: '10px',
-                }}>
-                  <a href={newsItem.link} style={{
-                    color: '#1ABC9C',
+              <h3 style={{ fontSize: '1.2rem', margin: '10px 0', color: '#007bff' }}>
+                <a
+                  href={item.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{
+                    fontSize: '1.2rem',
+                    marginBottom: '10px',
+                    color: '#000',
+                    fontWeight: '600',
                     textDecoration: 'none',
-                  }}>{newsItem.title}</a>
-                </h3>
-                <p style={{
-                  fontSize: '1rem',
-                  color: '#666',
-                  marginBottom: '10px',
-                }}>{newsItem.description}</p>
-                <p style={{
+                  }}
+                >
+                  {item.title}
+                </a>
+              </h3>
+              <p
+                style={{
                   fontSize: '0.9rem',
-                  color: '#999',
-                }}>{newsItem.date}</p>
-              </div>
+                  color: '#444',
+                  marginBottom: '10px',
+                  lineHeight: '1.5',
+                }}>
+                {item.description}
+              </p>
+              <p
+                style={{
+                  fontSize: '0.8rem',
+                  color: '#888',
+                  marginTop: '10px',
+                  fontStyle: 'italic',
+                }}
+              >
+                {item.date}
+              </p>
             </div>
           ))}
-        </div>
+        </Carousel>
       </div>
     </div>
   );
