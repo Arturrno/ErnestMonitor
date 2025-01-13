@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ernest_monitor_api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7960df326760025e47a87844754fcf6642e3036a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+485e75101892220768a8e4e34fdccc03fec2dcff")]
 [assembly: System.Reflection.AssemblyProductAttribute("ernest_monitor_api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ernest_monitor_api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

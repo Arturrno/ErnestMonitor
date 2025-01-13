@@ -1,8 +1,8 @@
 [
   {
-    "ContainingType": "SampleAzureApi.Controllers.ThreadsController",
+    "ContainingType": "SampleAzureApi.Controllers.ThreatsController",
     "Method": "Options",
-    "RelativePath": "api/Threads",
+    "RelativePath": "api/Threats",
     "HttpMethod": "OPTIONS",
     "IsController": true,
     "Order": 0,
@@ -10,16 +10,16 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SampleAzureApi.Controllers.ThreadsController",
+    "ContainingType": "SampleAzureApi.Controllers.ThreatsController",
     "Method": "GetThreads",
-    "RelativePath": "api/Threads",
+    "RelativePath": "api/Threats",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[SampleAzureApi.Models.Threads, ernest_monitor_api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SampleAzureApi.Models.Threats, ernest_monitor_api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -28,5 +28,94 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "SampleAzureApi.Controllers.ThreatsController",
+    "Method": "PostThread",
+    "RelativePath": "api/Threats",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "threat",
+        "Type": "SampleAzureApi.Models.Threats",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SampleAzureApi.Models.Threats",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SampleAzureApi.Controllers.ThreatsController",
+    "Method": "GetThread",
+    "RelativePath": "api/Threats/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SampleAzureApi.Models.Threats",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SampleAzureApi.Controllers.ThreatsController",
+    "Method": "PutThread",
+    "RelativePath": "api/Threats/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "threat",
+        "Type": "SampleAzureApi.Models.Threats",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SampleAzureApi.Controllers.ThreatsController",
+    "Method": "DeleteThread",
+    "RelativePath": "api/Threats/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

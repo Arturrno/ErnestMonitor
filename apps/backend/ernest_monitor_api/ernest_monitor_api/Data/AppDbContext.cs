@@ -8,6 +8,6 @@ namespace SampleAzureApi.Data
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
-        public DbSet<Threads> Threads { get; set; }
+        public DbSet<Threats> Threats { get; set; }
     }
 }

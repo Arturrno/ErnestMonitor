@@ -5,10 +5,10 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/Threads": {
+    "/api/Threats": {
       "options": {
         "tags": [
-          "Threads"
+          "Threats"
         ],
         "responses": {
           "200": {
@@ -18,7 +18,7 @@
       },
       "get": {
         "tags": [
-          "Threads"
+          "Threats"
         ],
         "responses": {
           "200": {
@@ -28,7 +28,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Threads"
+                    "$ref": "#/components/schemas/Threats"
                   }
                 }
               },
@@ -36,7 +36,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Threads"
+                    "$ref": "#/components/schemas/Threats"
                   }
                 }
               },
@@ -44,11 +44,158 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Threads"
+                    "$ref": "#/components/schemas/Threats"
                   }
                 }
               }
             }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Threats"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Threats"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Threats"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Threats"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Threats"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Threats"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Threats"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Threats/{id}": {
+      "get": {
+        "tags": [
+          "Threats"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Threats"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Threats"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Threats"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Threats"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Threats"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Threats"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Threats"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Threats"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
           }
         }
       }
@@ -56,19 +203,57 @@
   },
   "components": {
     "schemas": {
-      "Threads": {
-        "required": [
-          "regionName"
-        ],
+      "Threats": {
         "type": "object",
         "properties": {
-          "threadID": {
+          "threatID": {
             "type": "integer",
             "format": "int32"
           },
           "regionName": {
-            "minLength": 1,
-            "type": "string"
+            "type": "string",
+            "nullable": true
+          },
+          "userId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "threatType": {
+            "type": "string",
+            "nullable": true
+          },
+          "dangerLevel": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "trustLevel": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "files": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "status": {
+            "type": "string",
+            "nullable": true
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "updatedAt": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
           }
         },
         "additionalProperties": false
