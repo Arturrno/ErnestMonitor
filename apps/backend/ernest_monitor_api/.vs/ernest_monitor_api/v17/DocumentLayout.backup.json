@@ -1,21 +1,18 @@
 {
   "Version": 1,
-<<<<<<< HEAD
-  "WorkspaceRootPath": "C:\\Users\\artur\\source\\repos\\ErnestMonitor\\apps\\backend\\ernest_monitor_api\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{84869C40-D007-4F7B-94FE-FE998F8AB2F6}|ernest_monitor_api\\ernest_monitor_api.csproj|c:\\users\\artur\\source\\repos\\ernestmonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\controllers\\weatherforecast2controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84869C40-D007-4F7B-94FE-FE998F8AB2F6}|ernest_monitor_api\\ernest_monitor_api.csproj|solutionrelative:ernest_monitor_api\\controllers\\weatherforecast2controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
   "WorkspaceRootPath": "C:\\Users\\KamilCeglarski\\source\\repos\\ErnestMonitor\\apps\\backend\\ernest_monitor_api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{84869C40-D007-4F7B-94FE-FE998F8AB2F6}|ernest_monitor_api\\ernest_monitor_api.csproj|c:\\users\\kamilceglarski\\source\\repos\\ernestmonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{84869C40-D007-4F7B-94FE-FE998F8AB2F6}|ernest_monitor_api\\ernest_monitor_api.csproj|solutionrelative:ernest_monitor_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{84869C40-D007-4F7B-94FE-FE998F8AB2F6}|ernest_monitor_api\\ernest_monitor_api.csproj|c:\\users\\kamilceglarski\\source\\repos\\ernestmonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\controllers\\threatscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84869C40-D007-4F7B-94FE-FE998F8AB2F6}|ernest_monitor_api\\ernest_monitor_api.csproj|solutionrelative:ernest_monitor_api\\controllers\\threatscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84869C40-D007-4F7B-94FE-FE998F8AB2F6}|ernest_monitor_api\\ernest_monitor_api.csproj|c:\\users\\kamilceglarski\\source\\repos\\ernestmonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\controllers\\weatherforecast2controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84869C40-D007-4F7B-94FE-FE998F8AB2F6}|ernest_monitor_api\\ernest_monitor_api.csproj|solutionrelative:ernest_monitor_api\\controllers\\weatherforecast2controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{84869C40-D007-4F7B-94FE-FE998F8AB2F6}|ernest_monitor_api\\ernest_monitor_api.csproj|c:\\users\\kamilceglarski\\source\\repos\\ernestmonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84869C40-D007-4F7B-94FE-FE998F8AB2F6}|ernest_monitor_api\\ernest_monitor_api.csproj|solutionrelative:ernest_monitor_api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84869C40-D007-4F7B-94FE-FE998F8AB2F6}|ernest_monitor_api\\ernest_monitor_api.csproj|c:\\users\\kamilceglarski\\source\\repos\\ernestmonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\models\\threats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84869C40-D007-4F7B-94FE-FE998F8AB2F6}|ernest_monitor_api\\ernest_monitor_api.csproj|solutionrelative:ernest_monitor_api\\models\\threats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{84869C40-D007-4F7B-94FE-FE998F8AB2F6}|ernest_monitor_api\\ernest_monitor_api.csproj|c:\\users\\kamilceglarski\\source\\repos\\ernestmonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -24,7 +21,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{84869C40-D007-4F7B-94FE-FE998F8AB2F6}|ernest_monitor_api\\ernest_monitor_api.csproj|c:\\users\\kamilceglarski\\source\\repos\\ernestmonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84869C40-D007-4F7B-94FE-FE998F8AB2F6}|ernest_monitor_api\\ernest_monitor_api.csproj|solutionrelative:ernest_monitor_api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
->>>>>>> artur_test
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84869C40-D007-4F7B-94FE-FE998F8AB2F6}|ernest_monitor_api\\ernest_monitor_api.csproj|c:\\users\\kamilceglarski\\source\\repos\\ernestmonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\ernest_monitor_api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{84869C40-D007-4F7B-94FE-FE998F8AB2F6}|ernest_monitor_api\\ernest_monitor_api.csproj|solutionrelative:ernest_monitor_api\\ernest_monitor_api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84869C40-D007-4F7B-94FE-FE998F8AB2F6}|ernest_monitor_api\\ernest_monitor_api.csproj|c:\\users\\kamilceglarski\\source\\repos\\ernestmonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{84869C40-D007-4F7B-94FE-FE998F8AB2F6}|ernest_monitor_api\\ernest_monitor_api.csproj|solutionrelative:ernest_monitor_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,24 +37,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-<<<<<<< HEAD
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "WeatherForecast2Controller.cs",
-              "DocumentMoniker": "C:\\Users\\artur\\source\\repos\\ErnestMonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\Controllers\\WeatherForecast2Controller.cs",
-              "RelativeDocumentMoniker": "ernest_monitor_api\\Controllers\\WeatherForecast2Controller.cs",
-              "ToolTip": "C:\\Users\\artur\\source\\repos\\ErnestMonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\Controllers\\WeatherForecast2Controller.cs",
-              "RelativeToolTip": "ernest_monitor_api\\Controllers\\WeatherForecast2Controller.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T12:55:45.589Z",
-=======
           "DockedWidth": 198,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,54 +46,93 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\KamilCeglarski\\source\\repos\\ErnestMonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\appsettings.json",
-              "RelativeDocumentMoniker": "ernest_monitor_api\\appsettings.json",
-              "ToolTip": "C:\\Users\\KamilCeglarski\\source\\repos\\ErnestMonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\appsettings.json",
-              "RelativeToolTip": "ernest_monitor_api\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-08T11:12:31.935Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "WeatherForecast2Controller.cs",
-              "DocumentMoniker": "C:\\Users\\KamilCeglarski\\source\\repos\\ErnestMonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\Controllers\\WeatherForecast2Controller.cs",
-              "RelativeDocumentMoniker": "ernest_monitor_api\\Controllers\\WeatherForecast2Controller.cs",
-              "ToolTip": "C:\\Users\\KamilCeglarski\\source\\repos\\ErnestMonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\Controllers\\WeatherForecast2Controller.cs",
-              "RelativeToolTip": "ernest_monitor_api\\Controllers\\WeatherForecast2Controller.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T14:37:43.561Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "C:\\Users\\KamilCeglarski\\source\\repos\\ErnestMonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "ernest_monitor_api\\WeatherForecast.cs",
               "ToolTip": "C:\\Users\\KamilCeglarski\\source\\repos\\ErnestMonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\WeatherForecast.cs",
               "RelativeToolTip": "ernest_monitor_api\\WeatherForecast.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T10:15:11.545Z"
+              "WhenOpened": "2025-01-12T21:23:25.626Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "ThreatsController.cs",
+              "DocumentMoniker": "C:\\Users\\KamilCeglarski\\source\\repos\\ErnestMonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\Controllers\\ThreatsController.cs",
+              "RelativeDocumentMoniker": "ernest_monitor_api\\Controllers\\ThreatsController.cs",
+              "ToolTip": "C:\\Users\\KamilCeglarski\\source\\repos\\ErnestMonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\Controllers\\ThreatsController.cs",
+              "RelativeToolTip": "ernest_monitor_api\\Controllers\\ThreatsController.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAGgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T20:12:40.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\KamilCeglarski\\source\\repos\\ErnestMonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\Program.cs",
               "RelativeDocumentMoniker": "ernest_monitor_api\\Program.cs",
               "ToolTip": "C:\\Users\\KamilCeglarski\\source\\repos\\ErnestMonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\Program.cs",
               "RelativeToolTip": "ernest_monitor_api\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAArwC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T10:15:00.207Z",
->>>>>>> artur_test
+              "WhenOpened": "2025-01-12T20:11:54.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\KamilCeglarski\\source\\repos\\ErnestMonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ernest_monitor_api\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\KamilCeglarski\\source\\repos\\ErnestMonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "ernest_monitor_api\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T20:11:03.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Threats.cs",
+              "DocumentMoniker": "C:\\Users\\KamilCeglarski\\source\\repos\\ErnestMonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\Models\\Threats.cs",
+              "RelativeDocumentMoniker": "ernest_monitor_api\\Models\\Threats.cs",
+              "ToolTip": "C:\\Users\\KamilCeglarski\\source\\repos\\ErnestMonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\Models\\Threats.cs",
+              "RelativeToolTip": "ernest_monitor_api\\Models\\Threats.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T20:10:25.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ernest_monitor_api",
+              "DocumentMoniker": "C:\\Users\\KamilCeglarski\\source\\repos\\ErnestMonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\ernest_monitor_api.csproj",
+              "RelativeDocumentMoniker": "ernest_monitor_api\\ernest_monitor_api.csproj",
+              "ToolTip": "C:\\Users\\KamilCeglarski\\source\\repos\\ErnestMonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\ernest_monitor_api.csproj",
+              "RelativeToolTip": "ernest_monitor_api\\ernest_monitor_api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-12T20:02:53.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\KamilCeglarski\\source\\repos\\ErnestMonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\appsettings.json",
+              "RelativeDocumentMoniker": "ernest_monitor_api\\appsettings.json",
+              "ToolTip": "C:\\Users\\KamilCeglarski\\source\\repos\\ErnestMonitor\\apps\\backend\\ernest_monitor_api\\ernest_monitor_api\\appsettings.json",
+              "RelativeToolTip": "ernest_monitor_api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAD+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-12T19:54:58.933Z",
               "EditorCaption": ""
             }
           ]
