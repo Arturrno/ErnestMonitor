@@ -59,7 +59,7 @@ function ReportThreatForm() {
             <MDBInput wrapperClass='mb-4 mx-5 w-100' label='Region Name' id='formControlRegionName' type='text' size="lg" />
             <MDBInput
              wrapperClass='mb-4 mx-5 w-100'
-             label='Threat Range'
+             label='Threat Range (radius in meter)'
                   type="range"
                   className="form-range"
                   id="formControlDiameter"
