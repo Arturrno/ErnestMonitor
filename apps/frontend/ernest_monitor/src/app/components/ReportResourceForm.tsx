@@ -8,11 +8,36 @@ import {
   MDBInput,
   MDBTextArea
 } from 'mdb-react-ui-kit';
+import { MapContainer, TileLayer, Marker, Popup, useMapEvents } from 'react-leaflet';
+import 'leaflet/dist/leaflet.css';
+import L from 'leaflet';
 
-
+const customIcon = L.icon({
+  iconUrl: 'https://static.thenounproject.com/png/335079-200.png', // Ścieżka do twojego obrazu
+  iconSize: [32, 32], // Wymiary ikony
+  iconAnchor: [16, 32], // Ustawienie "czubka" ikony na odpowiedniej wysokości
+  popupAnchor: [0, -32] // Pozycja okna popup
+})
 
 function ReportResourceForm() {
+const [position, setPosition] = useState<[number, number]>([52.0648, 19.4794]); // Default location (London)
 
+  // Component to handle map clicks and set position
+  const LocationMarker = () => {
+    useMapEvents({
+      click(e) {
+        setPosition([e.latlng.lat, e.latlng.lng]);
+      },
+    });
+
+    return (
+      <Marker position={position} icon={customIcon}>
+        <Popup>
+          Selected Location: <br /> Latitude: {position[0]} <br /> Longitude: {position[1]}
+        </Popup>
+      </Marker>
+    );
+  };
   return (
     <MDBContainer fluid>
       <MDBRow>
@@ -20,7 +45,6 @@ function ReportResourceForm() {
         <MDBCol sm='6'>
 
           <div className='d-flex flex-row ps-5 pt-5'>
-            <MDBIcon fas icon="exclamation-triangle fa-3x me-3" style={{ color: '#d9534f' }} />
             <span className="h1 fw-bold mb-0">Report resource</span>
           </div>
 
@@ -69,11 +93,19 @@ function ReportResourceForm() {
         </MDBCol>
 
         <MDBCol sm='6' className='d-none d-sm-block px-0'>
-          <img src="https://www.incharge.org/wp-content/uploads/2015/11/storm-plan.jpg"
-            alt="Report a Threat"
-            className="w-100"
-            style={{ objectFit: 'cover', objectPosition: 'center', height: 'calc(100vh - 56px)' }} />
-        </MDBCol>
+                  <MapContainer
+                    center={position}
+                    zoom={7}
+                    style={{ height: "calc(100vh - 56px)", width: "100%" }}
+                  >
+                    <TileLayer
+                      url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                      attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                    />
+                    <LocationMarker />
+                  </MapContainer>
+                </MDBCol>
+        
 
       </MDBRow>
 
