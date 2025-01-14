@@ -16,13 +16,14 @@ namespace SampleAzureApi.Controllers
             _context = context;
         }
 
-        [HttpOptions]
-        public IActionResult Options()
-        {
-            Response.Headers.Add("Allow", "GET,POST,PUT,DELETE,OPTIONS");
-            return Ok();
-        }
+        //[HttpOptions]
+        //public IActionResult Options()
+        //{
+        //    Response.Headers.Add("Allow", "GET,POST,PUT,DELETE,OPTIONS");
+        //    return Ok();
+        //}
 
+        
         // GET: api/threats
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Threats>>> GetThreads()
