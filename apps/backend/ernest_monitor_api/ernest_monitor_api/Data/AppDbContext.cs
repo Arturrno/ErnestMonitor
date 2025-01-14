@@ -11,6 +11,7 @@ namespace SampleAzureApi.Data
 
         public DbSet<Threats> Threats { get; set; }
         public DbSet<Users> Users { get; set; }
+        public DbSet<Resource> Resources { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
