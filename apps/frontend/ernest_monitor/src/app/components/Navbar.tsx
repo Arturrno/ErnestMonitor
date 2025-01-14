@@ -26,10 +26,8 @@ function NavScroll() {
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/about">About</Nav.Link>
             <NavDropdown title="Link" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">
-                Another action
-              </NavDropdown.Item>
+              <NavDropdown.Item href="\report">Report</NavDropdown.Item>
+              <NavDropdown.Item href="\resource">Resource</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="">
                 Something else here
