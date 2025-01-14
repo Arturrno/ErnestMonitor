@@ -66,21 +66,21 @@ namespace SampleAzureApi.Controllers
                 return BadRequest();
             }
 
-            var existingThread = await _context.Threats.FindAsync(id);
-            if (existingThread == null)
+            var existingThreat = await _context.Threats.FindAsync(id);
+            if (existingThreat == null)
             {
                 return NotFound();
             }
 
-            existingThread.RegionName = threat.RegionName;
-            existingThread.UserId = threat.UserId;
-            existingThread.ThreatType = threat.ThreatType;
-            existingThread.DangerLevel = threat.DangerLevel;
-            existingThread.TrustLevel = threat.TrustLevel;
-            existingThread.Description = threat.Description;
-            existingThread.Files = threat.Files;
-            existingThread.Status = threat.Status;
-            existingThread.UpdatedAt = DateTime.UtcNow;
+            existingThreat.RegionName = threat.RegionName;
+            existingThreat.UserId = threat.UserId;
+            existingThreat.ThreatType = threat.ThreatType;
+            existingThreat.DangerLevel = threat.DangerLevel;
+            existingThreat.TrustLevel = threat.TrustLevel;
+            existingThreat.Description = threat.Description;
+            existingThreat.Files = threat.Files;
+            existingThreat.Status = threat.Status;
+            existingThreat.UpdatedAt = DateTime.UtcNow;
 
             await _context.SaveChangesAsync();
 
