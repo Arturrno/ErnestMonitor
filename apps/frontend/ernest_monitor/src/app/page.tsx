@@ -4,14 +4,25 @@ import Map from './home/Map';
 import Table from './home/Table';
 import SurvivalNews from './home/SurvivalNews';
 
-
-
 export default function Home() {
   return (
-    <div >
+    <div style={styles.container}>
       <Map />
       <Table />
       <SurvivalNews />
     </div>
   );
 }
+
+const styles: { [key: string]: React.CSSProperties } = {
+  container: {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    margin: '20px',
+    padding: '20px',
+    backgroundColor: '#F9F9F9',
+    borderRadius: '8px',
+    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+  }
+};
