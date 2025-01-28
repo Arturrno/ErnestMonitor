@@ -2,14 +2,7 @@ using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using SampleAzureApi.Data;
 
-
-
-
 var builder = WebApplication.CreateBuilder(args);
-
-
-
-
 
 builder.Services.AddCors(options =>
 {

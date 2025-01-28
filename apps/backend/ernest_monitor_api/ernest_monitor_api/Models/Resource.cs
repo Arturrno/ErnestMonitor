@@ -12,6 +12,9 @@
         public string Status { get; set; }
         public DateTime? CreatedAt { get; set; }
         public DateTime? UpdatedAt { get; set; }
-
+        public double? Longitude { get; set; } // Dodane
+        public double? Latitude { get; set; } // Dodane
+        public int? Range { get; set; } // Dodane
+        public int? PhoneNumber { get; set; } // Dodane
     }
 }
