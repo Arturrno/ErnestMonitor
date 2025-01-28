@@ -68,17 +68,33 @@ namespace ernest_monitor_api.Controllers
             }
 
             // POST: api/Resources
-            [HttpPost]
-            public async Task<ActionResult<Resource>> PostResources(Resource Resource)
-            {
-                _context.Resources.Add(Resource);
-                await _context.SaveChangesAsync();
+            //[HttpPost]
+            //public async Task<ActionResult<Resource>> PostResources(Resource Resource)
+            //{
+            //    _context.Resources.Add(Resource);
+            //    await _context.SaveChangesAsync();
 
-                return CreatedAtAction("GetResources", new { id = Resource.ResourceId }, Resource);
-            }
+            //    return CreatedAtAction("GetResources", new { id = Resource.ResourceId }, Resource);
+            //}
 
-            // DELETE: api/Resources/{id}
-            [HttpDelete("{id}")]
+        // POST: api/Resources
+        [HttpPost]
+        public async Task<ActionResult<Resource>> PostResources(Resource Resource)
+        {
+            // Ustawienie aktualnej daty i godziny dla CreatedAt i UpdatedAt
+            Resource.CreatedAt = DateTime.UtcNow;  // Użyj DateTime.UtcNow dla spójności czasowej
+            Resource.UpdatedAt = DateTime.UtcNow;
+
+            // Dodanie zasobu do kontekstu i zapisanie zmian
+            _context.Resources.Add(Resource);
+            await _context.SaveChangesAsync();
+
+            // Zwrócenie odpowiedzi z lokalizacją nowego zasobu
+            return CreatedAtAction("GetResources", new { id = Resource.ResourceId }, Resource);
+        }
+
+        // DELETE: api/Resources/{id}
+        [HttpDelete("{id}")]
             public async Task<IActionResult> DeleteResources(int id)
             {
                 var Resources = await _context.Resources.FindAsync(id);
