@@ -23,7 +23,7 @@ export default function RequestsTable({ threats, refreshData }: RequestsTablePro
     setUpdatingId(id);
     try {
       const token = localStorage.getItem('authToken');
-      const response = await fetch(`https://localhost:7281/api/Threats/${id}`, {
+      const response = await fetch(`https://localhost:7261/api/Threats/${id}`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
@@ -65,7 +65,7 @@ export default function RequestsTable({ threats, refreshData }: RequestsTablePro
               <td>{threat.status}</td>
               <td className="flex gap-2">
                 <button
-                  onClick={() => handleStatusUpdate(threat.threatID, 'Resolved')}
+                  onClick={() => handleStatusUpdate(threat.threatID, 'Confirmed')}
                   className="btn btn-success btn-xs"
                   disabled={updatingId === threat.threatID}
                 >
