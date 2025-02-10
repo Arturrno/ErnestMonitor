@@ -45,7 +45,7 @@ export default function DashboardPage() {
 
   return (
     <div className="container mx-auto p-4">
-      <h1 className="text-3xl font-bold mb-6">Zgłoszenia</h1>
+      <h1 className="text-3xl font-bold mb-6">Reports</h1>
       <RequestsTable threats={threats} refreshData={fetchThreats} />
     </div>
   );
