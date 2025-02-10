@@ -25,6 +25,7 @@ function NavScroll() {
           >
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/about">About</Nav.Link>
+            <Nav.Link href="/dashboard">Dashboard</Nav.Link>
             <NavDropdown title="Link" id="navbarScrollingDropdown">
               <NavDropdown.Item href="\report">Report</NavDropdown.Item>
               <NavDropdown.Item href="\resource">Resource</NavDropdown.Item>
