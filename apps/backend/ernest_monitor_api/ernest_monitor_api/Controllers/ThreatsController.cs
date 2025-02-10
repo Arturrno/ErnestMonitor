@@ -79,7 +79,7 @@ namespace SampleAzureApi.Controllers
             existingThreat.DangerLevel = threat.DangerLevel;
             existingThreat.TrustLevel = threat.TrustLevel;
             existingThreat.Description = threat.Description;
-            existingThreat.Files = threat.Files;
+            //existingThreat.Files = threat.Files;
             existingThreat.Status = threat.Status;
             existingThreat.UpdatedAt = DateTime.UtcNow;
 
