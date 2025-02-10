@@ -45,7 +45,8 @@ function LoginForm() {
         <MDBCol sm='6'>
           <div className='d-flex flex-row ps-5 pt-5'>
             <MDBIcon fas icon="crow fa-3x me-3" style={{ color: '#709085' }} />
-            <span className="h1 fw-bold mb-0">Put our logo here</span>
+            <img src="../assets/logo.png" alt="Logo" className="h1 fw-bold mb-0" style={{ height: '3rem' }} />
+
           </div>
           <div className='d-flex flex-column justify-content-center h-custom-2 w-75 pt-4'>
             <h3 className="fw-normal mb-3 ps-5 pb-3" style={{ letterSpacing: '1px' }}>Log in</h3>
