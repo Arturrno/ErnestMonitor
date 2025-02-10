@@ -12,7 +12,7 @@ namespace SampleAzureApi.Models
         public int? DangerLevel { get; set; }
         public int? TrustLevel { get; set; }
         public string? Description { get; set; }
-        public string? Files { get; set; } // Zmienione na string (varchar w bazie danych)
+        //public string? Files { get; set; } // Zmienione na string (varchar w bazie danych)
         public string? Status { get; set; }
         public DateTime? CreatedAt { get; set; }
         public DateTime? UpdatedAt { get; set; }
