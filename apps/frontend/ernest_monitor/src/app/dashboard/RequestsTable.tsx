@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from 'react';
+import { useState } from "react";
+import { Table, Button, Spinner } from "react-bootstrap";
 
 interface Threat {
   threatID: number;
@@ -22,23 +23,23 @@ export default function RequestsTable({ threats, refreshData }: RequestsTablePro
   const handleStatusUpdate = async (id: number, newStatus: string) => {
     setUpdatingId(id);
     try {
-      const token = localStorage.getItem('authToken');
+      const token = localStorage.getItem("authToken");
       const response = await fetch(`https://localhost:7261/api/Threats/${id}`, {
-        method: 'PUT',
+        method: "PUT",
         headers: {
-          'Content-Type': 'application/json',
-          'Authorization': `Bearer ${token}`
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${token}`,
         },
         body: JSON.stringify({
-          ...threats.find(t => t.threatID === id),
-          status: newStatus
-        })
+          ...threats.find((t) => t.threatID === id),
+          status: newStatus,
+        }),
       });
 
-      if (!response.ok) throw new Error('Update failed');
+      if (!response.ok) throw new Error("Update failed");
       refreshData();
     } catch (error) {
-      console.error('Error updating status:', error);
+      console.error("Error updating status:", error);
     } finally {
       setUpdatingId(null);
     }
@@ -46,14 +47,14 @@ export default function RequestsTable({ threats, refreshData }: RequestsTablePro
 
   return (
     <div className="overflow-x-auto">
-      <table className="table table-zebra w-full">
+      <Table striped bordered hover>
         <thead>
           <tr>
             <th>ID</th>
             <th>Region</th>
-            <th>Opis</th>
+            <th>Description</th>
             <th>Status</th>
-            <th>Akcje</th>
+            <th>Action</th>
           </tr>
         </thead>
         <tbody>
@@ -63,34 +64,34 @@ export default function RequestsTable({ threats, refreshData }: RequestsTablePro
               <td>{threat.regionName}</td>
               <td>{threat.description}</td>
               <td>{threat.status}</td>
-              <td className="flex gap-2">
-                <button
-                  onClick={() => handleStatusUpdate(threat.threatID, 'Confirmed')}
-                  className="btn btn-success btn-xs"
-                  disabled={updatingId === threat.threatID}
-                >
-                  {updatingId === threat.threatID ? (
-                    <span className="loading loading-spinner"></span>
-                  ) : (
-                    'Zatwierdź'
-                  )}
-                </button>
-                <button
-                  onClick={() => handleStatusUpdate(threat.threatID, 'Rejected')}
-                  className="btn btn-error btn-xs"
-                  disabled={updatingId === threat.threatID}
-                >
-                  {updatingId === threat.threatID ? (
-                    <span className="loading loading-spinner"></span>
-                  ) : (
-                    'Odrzuć'
-                  )}
-                </button>
+              <td className="d-flex gap-2">
+                {threat.status === "Pending" ? (
+                  <>
+                    <Button
+                      variant="success"
+                      size="sm"
+                      onClick={() => handleStatusUpdate(threat.threatID, "Confirmed")}
+                      disabled={updatingId === threat.threatID}
+                    >
+                      {updatingId === threat.threatID ? <Spinner as="span" animation="border" size="sm" /> : "Confirm"}
+                    </Button>
+                    <Button
+                      variant="danger"
+                      size="sm"
+                      onClick={() => handleStatusUpdate(threat.threatID, "Resolved")}
+                      disabled={updatingId === threat.threatID}
+                    >
+                      {updatingId === threat.threatID ? <Spinner as="span" animation="border" size="sm" /> : "Reject"}
+                    </Button>
+                  </>
+                ) : (
+                  <div style={{ height: "32px" }} /> // Keeps row height consistent
+                )}
               </td>
             </tr>
           ))}
         </tbody>
-      </table>
+      </Table>
     </div>
   );
 }
