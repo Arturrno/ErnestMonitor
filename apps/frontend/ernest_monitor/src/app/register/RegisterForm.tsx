@@ -60,7 +60,9 @@ function RegisterForm() {
             <MDBInput wrapperClass='mb-4 mx-5 w-100' label='Nazwa użytkownika' id='formControlUsername' type='text' size="lg" value={username} onChange={(e) => setUsername(e.target.value)} />
             <MDBInput wrapperClass='mb-4 mx-5 w-100' label='Adres e-mail' id='formControlEmail' type='email' size="lg" value={email} onChange={(e) => setEmail(e.target.value)} />
             <MDBInput wrapperClass='mb-4 mx-5 w-100' label='Hasło' id='formControlPassword' type='password' size="lg" value={password} onChange={(e) => setPassword(e.target.value)} />
-            <MDBBtn className="mb-4 px-5 mx-5 w-100" color='info' size='lg' onClick={handleRegister}>Zarejestruj się</MDBBtn>
+            <MDBBtn className="mb-4 px-5 mx-5 w-100" color='info' size='lg' onClick={handleRegister} style={{ height: '50px' }}>
+                            Register Now
+                          </MDBBtn>
             <Link href='/login'><p className='ms-5'>Masz już konto? Zaloguj się tutaj</p></Link>
           </div>
         </MDBCol>

@@ -70,7 +70,9 @@ function LoginForm() {
               {error && <p className="text-danger">{error}</p>}
               <MDBInput wrapperClass='mb-4 mx-5 w-100' label='Username' id='formControlUsername' type='text' size="lg" value={username} onChange={(e) => setUsername(e.target.value)} />
               <MDBInput wrapperClass='mb-4 mx-5 w-100' label='Password' id='formControlPassword' type='password' size="lg" value={password} onChange={(e) => setPassword(e.target.value)} />
-              <MDBBtn className="mb-4 px-5 mx-5 w-100" color='info' size='lg' onClick={handleLogin}>Login</MDBBtn>
+              <MDBBtn className="mb-4 px-5 mx-5 w-100" color='info' size='lg' onClick={handleLogin} style={{ height: '50px' }}>
+                Login
+              </MDBBtn>
               <Link href='/register'><p className='ms-5'>Do not have an account? Register here</p></Link>
             </div>
           )}
