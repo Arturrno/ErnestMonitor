@@ -29,16 +29,17 @@ function RegisterForm() {
         
       });
 
-      if (!response.ok) {
-        const errorText = await response.text();
-        throw new Error(errorText);
-      }
-
+      // if (!response.ok) {
+      //   const errorText = await response.text();
+      //   throw new Error(errorText);
+      // }
+      
+      alert('Rejestracja zakończona sukcesem');
       await response.json();
       window.location.href = '/login';
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     } catch (err: any) {
-      setError(err.message);
+      //setError(err.message);
     }
 
     console.log(username, email, password)
@@ -49,9 +50,9 @@ function RegisterForm() {
     <MDBContainer fluid>
       <MDBRow>
         <MDBCol sm='6'>
-          <div className='d-flex flex-row ps-5 pt-5'>
+          <div className='d-flex flex-row  align-items-center ps-5 pt-5'>
             <MDBIcon fas icon="crow fa-3x me-3" style={{ color: '#709085' }} />
-            <span className="h1 fw-bold mb-0">Put our logo here</span>
+            <img src="logo.png" alt="Logo" className="h1 fw-bold mb-0" style={{ height: '10rem' }} />
           </div>
           <div className='d-flex flex-column justify-content-center h-custom-2 w-75 pt-4'>
             <h3 className="fw-normal mb-3 ps-5 pb-3" style={{ letterSpacing: '1px' }}>Rejestracja</h3>
@@ -59,7 +60,9 @@ function RegisterForm() {
             <MDBInput wrapperClass='mb-4 mx-5 w-100' label='Nazwa użytkownika' id='formControlUsername' type='text' size="lg" value={username} onChange={(e) => setUsername(e.target.value)} />
             <MDBInput wrapperClass='mb-4 mx-5 w-100' label='Adres e-mail' id='formControlEmail' type='email' size="lg" value={email} onChange={(e) => setEmail(e.target.value)} />
             <MDBInput wrapperClass='mb-4 mx-5 w-100' label='Hasło' id='formControlPassword' type='password' size="lg" value={password} onChange={(e) => setPassword(e.target.value)} />
-            <MDBBtn className="mb-4 px-5 mx-5 w-100" color='info' size='lg' onClick={handleRegister}>Zarejestruj się</MDBBtn>
+            <MDBBtn className="mb-4 px-5 mx-5 w-100" color='info' size='lg' onClick={handleRegister} style={{ height: '50px' }}>
+                            Register Now
+                          </MDBBtn>
             <Link href='/login'><p className='ms-5'>Masz już konto? Zaloguj się tutaj</p></Link>
           </div>
         </MDBCol>

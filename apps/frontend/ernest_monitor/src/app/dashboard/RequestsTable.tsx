@@ -65,7 +65,7 @@ export default function RequestsTable({ threats, refreshData }: RequestsTablePro
             <th>Region</th>
             <th>Description</th>
             <th>Status</th>
-            <th className="text-center" style={{ width: "200px" }}>Action</th> {/* Fixed width for action column */}
+            <th className="text-center" style={{ width: "200px" }}>Action</th>
           </tr>
         </thead>
         <tbody>
@@ -75,7 +75,7 @@ export default function RequestsTable({ threats, refreshData }: RequestsTablePro
               <td>{threat.regionName}</td>
               <td>{threat.description}</td>
               <td>{threat.status}</td>
-              <td className="text-center" style={{ width: "200px" }}> {/* Fixed width for action column */}
+              <td className="text-center" style={{ width: "200px" }}>
                 <Collapse in={!hiddenButtons[threat.threatID]} dimension="width">
                   <div className="d-flex gap-2 justify-content-center align-items-center" style={{ width: "100%" }}>
                     {threat.status === "Pending" && (
@@ -85,7 +85,7 @@ export default function RequestsTable({ threats, refreshData }: RequestsTablePro
                           size="sm"
                           onClick={() => handleStatusUpdate(threat.threatID, "Confirmed")}
                           disabled={updatingId === threat.threatID}
-                          style={{ flex: 1 }} // Ensure buttons take equal space
+                          style={{ flex: 1 }}
                         >
                           Confirm
                         </Button>
@@ -94,7 +94,7 @@ export default function RequestsTable({ threats, refreshData }: RequestsTablePro
                           size="sm"
                           onClick={() => handleStatusUpdate(threat.threatID, "Resolved")}
                           disabled={updatingId === threat.threatID}
-                          style={{ flex: 1 }} // Ensure buttons take equal space
+                          style={{ flex: 1 }}
                         >
                           Resolve
                         </Button>
@@ -102,7 +102,6 @@ export default function RequestsTable({ threats, refreshData }: RequestsTablePro
                     )}
                   </div>
                 </Collapse>
-                {/* Placeholder to maintain row height */}
                 {!threat.status || threat.status !== "Pending" ? <div style={{ height: "32px" }} /> : null}
               </td>
             </tr>
