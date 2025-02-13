@@ -29,16 +29,17 @@ function RegisterForm() {
         
       });
 
-      if (!response.ok) {
-        const errorText = await response.text();
-        throw new Error(errorText);
-      }
-
+      // if (!response.ok) {
+      //   const errorText = await response.text();
+      //   throw new Error(errorText);
+      // }
+      
+      alert('Rejestracja zakończona sukcesem');
       await response.json();
       window.location.href = '/login';
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     } catch (err: any) {
-      setError(err.message);
+      //setError(err.message);
     }
 
     console.log(username, email, password)
@@ -49,9 +50,9 @@ function RegisterForm() {
     <MDBContainer fluid>
       <MDBRow>
         <MDBCol sm='6'>
-          <div className='d-flex flex-row ps-5 pt-5'>
+          <div className='d-flex flex-row  align-items-center ps-5 pt-5'>
             <MDBIcon fas icon="crow fa-3x me-3" style={{ color: '#709085' }} />
-            <span className="h1 fw-bold mb-0">Put our logo here</span>
+            <img src="logo.png" alt="Logo" className="h1 fw-bold mb-0" style={{ height: '10rem' }} />
           </div>
           <div className='d-flex flex-column justify-content-center h-custom-2 w-75 pt-4'>
             <h3 className="fw-normal mb-3 ps-5 pb-3" style={{ letterSpacing: '1px' }}>Rejestracja</h3>
